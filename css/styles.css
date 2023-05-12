@@ -167,6 +167,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: #2e2f42;
+  background-size: cover;
 }
 
 .portfolio-info {
@@ -327,6 +328,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .employees-list-text {
@@ -344,6 +346,28 @@ body {
 .img-team {
   width: 264px;
   height: 260px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  list-style: none;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--text-color-blue);
 }
 
 /* ================= FOOTER =================*/
