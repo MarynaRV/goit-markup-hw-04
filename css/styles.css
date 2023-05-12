@@ -43,7 +43,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -61,6 +60,10 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.logo-img {
+  justify-content: center;
 }
 
 /* ================= HEADER ================= */
@@ -157,9 +160,13 @@ body {
 /* ================= HERO ================= */
 
 .hero {
-  background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/people-office.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #2e2f42;
 }
 
 .portfolio-info {
@@ -244,6 +251,24 @@ body {
 
 .info-list-li {
   width: calc((100%-72px) / 4);
+}
+
+.icon {
+  display: flex;
+  gap: 24px;
+}
+
+.icon-logo {
+  display: flex;
+  justify-content: center;
+  width: calc((100%-72px) / 4);
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 102px;
+  padding-right: 102px;
+  margin-bottom: 8px;
 }
 
 /* ================= ABOUT ================= */
