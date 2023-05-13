@@ -42,6 +42,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  max-width: 1440px;
 }
 .section {
   padding-top: 120px;
@@ -460,8 +461,8 @@ body {
   align-items: baseline;
 }
 
-.footer-social-media {
-  margin-left: 120px;
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 /* ================= Portfolio =================*/
