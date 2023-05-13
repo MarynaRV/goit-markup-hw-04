@@ -359,7 +359,7 @@ body {
 .social-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   list-style: none;
 }
 
@@ -376,6 +376,10 @@ body {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--text-color-blue);
+}
+
+.social-list-icon {
+  fill: var(--text-color-portfolio-button);
 }
 
 /* ================= Customers =================*/
