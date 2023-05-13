@@ -470,6 +470,10 @@ body {
   margin-right: 120px;
 }
 
+.footer-list-icon {
+  fill: var(--text-color-portfolio-button);
+}
+
 /* ================= Portfolio =================*/
 /* ================= Portfolio =================*/
 /* ================= Portfolio =================*/
