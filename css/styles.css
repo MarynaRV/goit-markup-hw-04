@@ -380,7 +380,7 @@ body {
   column-gap: 24px;
 }
 
-.customers-item {
+.customers-list-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,8 +394,8 @@ body {
   fill: #8e8f99;
 }
 
-.customers-list-link:hover,
-.customers-list-link:focus {
+.customers-list-link:hover .customer-logo,
+.customers-list-link:focus .customer-logo {
   fill: #404bbf;
 }
 
