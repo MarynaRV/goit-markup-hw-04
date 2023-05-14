@@ -411,9 +411,8 @@ body {
   width: 168px;
   height: 88px;
   border-radius: 4px;
-  color: #8e8f99;
-  fill: #8e8f99;
-  border: 1px solid;
+  fill: var(--color-icon);
+  border: 1px solid #8e8f99;
 }
 
 .customers-list-link:hover.customer-logo,
