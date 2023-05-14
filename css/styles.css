@@ -411,12 +411,13 @@ body {
   width: 168px;
   height: 88px;
   border-radius: 4px;
+  color: #8e8f99;
+  fill: #8e8f99;
   border: 1px solid;
 }
 
-.customer-logo:hover,
-.customer-logo:focus {
-  color: #404bbf;
+.customers-list-link:hover.customer-logo,
+.customers-list-link:focus.customer-logo {
   fill: #404bbf;
 }
 
@@ -424,8 +425,6 @@ body {
 .customers-list-link:focus {
   outline: none;
   border-color: #404bbf;
-
-  color: #404bbf;
   fill: #404bbf;
 }
 
