@@ -417,10 +417,10 @@ body {
   fill: #8e8f99;
 }
 
-.customers-list-link:hover .customer-logo,
-.customers-list-link:focus .customer-logo {
-  fill: #404bbf;
-  border-fill: #404bbf;
+.customers-list-link:hover,
+.customers-list-link:focus {
+  outline: none;
+  border-color: #404bbf;
 }
 
 /* ================= FOOTER =================*/
