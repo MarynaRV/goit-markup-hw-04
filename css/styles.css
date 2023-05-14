@@ -519,6 +519,10 @@ body {
   flex: none;
 }
 
+.hero-link {
+  display: block;
+}
+
 .button:hover,
 .button:focus {
   background-color: var(--text-color-blue);
