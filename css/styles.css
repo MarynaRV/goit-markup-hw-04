@@ -6,6 +6,7 @@
   --text-color-blue: #404bbf;
   --text-color-portfolio-button: #f4f4fd;
   --color-button: #e7e9fc;
+  --color-icon: #8e8f99;
 }
 
 .list {
@@ -393,7 +394,7 @@ body {
 .customers-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .customers {
@@ -407,7 +408,7 @@ body {
   width: 168px;
   height: 88px;
   border-radius: 4px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--color-icon);
 }
 
 .customer-logo {
@@ -417,6 +418,7 @@ body {
 .customers-list-link:hover .customer-logo,
 .customers-list-link:focus .customer-logo {
   fill: #404bbf;
+  border-color: #404bbf;
 }
 
 /* ================= FOOTER =================*/
