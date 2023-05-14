@@ -244,6 +244,10 @@ body {
   padding: 120px 0 120px;
 }
 
+/* .div-container {
+  height: 112px;
+} */
+
 .icon-list {
   display: flex;
   align-items: center;
