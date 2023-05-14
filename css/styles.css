@@ -412,12 +412,8 @@ body {
   height: 88px;
   border-radius: 4px;
   fill: var(--color-icon);
+  color: var(--color-icon);
   border: 1px solid #8e8f99;
-}
-
-.customers-list-link:hover.customer-logo,
-.customers-list-link:focus.customer-logo {
-  fill: #404bbf;
 }
 
 .customers-list-link:hover,
@@ -425,6 +421,11 @@ body {
   outline: none;
   border-color: #404bbf;
   fill: #404bbf;
+  color: #404bbf;
+}
+
+svg {
+  fill: currentColor;
 }
 
 /* ================= FOOTER =================*/
